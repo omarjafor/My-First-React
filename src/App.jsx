@@ -17,8 +17,8 @@ function App() {
   )
 }
 
-function Device(props) {
-  return <h3>This Device is: {props.name} Price: {props.price} </h3>
+function Device({name, price}) {
+  return <h3>This Device is: {name} Price: {price} </h3>
 }
 
 function Person() {
