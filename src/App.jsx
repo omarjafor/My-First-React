@@ -15,7 +15,9 @@ function App() {
 function Person() {
   const person = 'jabed';
   const age = 23;
-  return <h3>Hello, i am {person} age {age}</h3>
+  return <div className="student">
+    <h3>Hello, i am {person} age {age}</h3>
+  </div>
 }
 
 export default App
