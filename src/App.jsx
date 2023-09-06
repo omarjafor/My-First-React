@@ -8,9 +8,9 @@ function App() {
       <h1>React by JaBed</h1>
       <Student/>
       <Home/>
-      <Device name='Desktop PC'/>
-      <Device name='Laptop'/>
-      <Device name='Mobile'/>
+      <Device name='Desktop PC' price='45600'/>
+      <Device name='Laptop' price='50600' />
+      <Device name='Mobile' price='65600' />
       <Person/>
       <Developer/>
     </>
@@ -18,7 +18,7 @@ function App() {
 }
 
 function Device(props) {
-  return <h3>This Device is: {props.name}</h3>
+  return <h3>This Device is: {props.name} Price: {props.price} </h3>
 }
 
 function Person() {
@@ -29,7 +29,7 @@ function Person() {
   </div>
 }
 
-function Student() {
+function Student(props) {
   return (
     <div style={{
       border: '2px solid yellow',
@@ -37,7 +37,10 @@ function Student() {
       margin: '15px',
       bordeRadius: '10px'
     }}>
-      <h3>Hello, This is a web developer</h3>
+      <h3>Hello, This is a Student</h3>
+      <p>Name:</p>
+      <p>Age: </p>
+      <p>Grade: </p>
     </div>
   )
 }
