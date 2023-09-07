@@ -4,14 +4,18 @@ import Home from './pages/Home'
 
 function App() {
   let sum=0;
-  function buttonClicked(){
-    sum++;
-    console.log('Button Clicked ' + sum);
+  // function buttonClicked(){
+  //   sum++;
+  //   console.log('Button Clicked ' + sum);
+  // }
+  const buttonClicked = () => {
+    alert('Button Clicked ')
   }
   return (
     <>
       <h1>React Core Concept</h1>
       <button onClick={buttonClicked}>Clicked</button>
+     
 
       {/* <Student/>
       <Home/>
