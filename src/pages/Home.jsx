@@ -1,7 +1,12 @@
 import React from "react";
 const name = 'Omar Jafor Chowdhury'
 function Home(){
+    const actors = ['Shakib', 'Hongsu Raj', 'Jayed Khan', 'Salman Khan']
     return <div>
+        <Actor name='Salman Khan'/>
+        {
+            actors.map(actor => <Actor name={actor}/>)
+        }
         <h2>Full Name: {name} </h2>
         {/* <Todo task='learn react' />
        <Todos task='Learning JavaScript' isDone={true}/>
@@ -33,6 +38,8 @@ function Todos2({task, isDone}){
     )
 }
 
-
+function Actor({name}){
+    return <li>Name : {name}</li>
+}
 
 export default Home;
