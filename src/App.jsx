@@ -8,18 +8,18 @@ function App() {
       <h1>React by JaBed</h1>
       <Student/>
       <Home/>
-      <Device name='Desktop PC' price='45600'/>
+      {/* <Device name='Desktop PC' price='45600'/>
       <Device name='Laptop' price='50600' />
-      <Device name='Mobile' price='65600' />
+      <Device name='Mobile' price='65600' /> */}
       <Person/>
       <Developer/>
     </>
   )
 }
 
-function Device({name, price}) {
-  return <h3>This Device is: {name} Price: {price} </h3>
-}
+// function Device({name, price}) {
+//   return <h3>This Device is: {name} Price: {price} </h3>
+// }
 
 function Person() {
   const person = 'jabed';
