@@ -16,9 +16,9 @@ function App() {
       <h1>React Core Concept</h1>
       <button onClick={()=> buttonClicked(5)}>Clicked</button>
      
-      {/* <Student/>
+      <Student/>
       <Home/>
-       <Device name='Desktop PC' price='45600'/>
+      {/*  <Device name='Desktop PC' price='45600'/>
       <Device name='Laptop' price='50600' />
       <Device name='Mobile' price='65600' />
       <Person/>
@@ -27,9 +27,9 @@ function App() {
   )
 }
 
-// function Device({name, price}) {
-//   return <h3>This Device is: {name} Price: {price} </h3>
-// }
+function Device({name, price}) {
+  return <h3>This Device is: {name} Price: {price} </h3>
+}
 
 function Person() {
   const person = 'jabed';
