@@ -8,13 +8,13 @@ function App() {
   //   sum++;
   //   console.log('Button Clicked ' + sum);
   // }
-  const buttonClicked = () => {
-    alert('Button Clicked ')
+  const buttonClicked = (num) => {
+    alert('Button Clicked '+ num)
   }
   return (
     <>
       <h1>React Core Concept</h1>
-      <button onClick={buttonClicked}>Clicked</button>
+      <button onClick={()=> buttonClicked(5)}>Clicked</button>
      
 
       {/* <Student/>
