@@ -27,7 +27,9 @@ function Todo({task}){
 
 function Todos2({task, isDone}){
     return(
-        <li>{isDone ? 'Finished' : 'Work On'}</li>
+        // <li>{isDone ? 'Finished' : 'Work On'}</li>
+        <li>{isDone && task}</li>
+        // <li>{isDone || task}</li>
     )
 }
 export default Home;
