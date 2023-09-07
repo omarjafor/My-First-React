@@ -3,11 +3,11 @@ const name = 'Omar Jafor Chowdhury'
 function Home(){
     return <div>
         <h2>Full Name: {name} </h2>
-        {/* <Todo task='learn react' /> */}
-        {/* <Todos task='Learning JavaScript' isDone={true}/>
-        <Todos task='Learning React' isDone={false}/> */}
+        {/* <Todo task='learn react' />
+       <Todos task='Learning JavaScript' isDone={true}/>
+        <Todos task='Learning React' isDone={false}/>
         <Todos2 task='Learning React' isDone={false}/>
-        <Todos2 task='Learning Next' isDone={true}/>
+        <Todos2 task='Learning Next' isDone={true}/> */}
     </div>
 }
 
@@ -32,4 +32,7 @@ function Todos2({task, isDone}){
         // <li>{isDone || task}</li>
     )
 }
+
+
+
 export default Home;
