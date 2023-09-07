@@ -3,7 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 
 function App() {
-  let sum=0;
+  // let sum=0;
   // function buttonClicked(){
   //   sum++;
   //   console.log('Button Clicked ' + sum);
@@ -16,7 +16,6 @@ function App() {
       <h1>React Core Concept</h1>
       <button onClick={()=> buttonClicked(5)}>Clicked</button>
      
-
       {/* <Student/>
       <Home/>
        <Device name='Desktop PC' price='45600'/>
