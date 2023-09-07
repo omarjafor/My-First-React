@@ -2,7 +2,16 @@ import React from "react";
 const name = 'Omar Jafor Chowdhury'
 function Home(){
     const actors = ['Shakib', 'Hongsu Raj', 'Jayed Khan', 'Salman Khan']
+    const singers =[
+        {name:'Jokkor Bokkor', age:56},
+        {name:'Zonko', age:35},
+        {name:'Panka Pola', age:48},
+        {name:'Imran Khan', age:29}
+    ]
     return <div>
+        {
+            singers.map(singer => <Singer singer={singer} />)
+        }
         <Actor name='Salman Khan'/>
         {
             actors.map(actor => <Actor name={actor}/>)
@@ -40,6 +49,12 @@ function Todos2({task, isDone}){
 
 function Actor({name}){
     return <li>Name : {name}</li>
+}
+function Singer({ singer }) {
+    return <div>
+        <li>Name : {singer.name}</li>
+        <li>Age : {singer.age}</li>
+    </div>
 }
 
 export default Home;
