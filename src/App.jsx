@@ -3,16 +3,23 @@ import './App.css'
 import Home from './pages/Home'
 
 function App() {
+  let sum=0;
+  function buttonClicked(){
+    sum++;
+    console.log('Button Clicked ' + sum);
+  }
   return (
     <>
-      <h1>React by JaBed</h1>
-      <Student/>
+      <h1>React Core Concept</h1>
+      <button onClick={buttonClicked}>Clicked</button>
+
+      {/* <Student/>
       <Home/>
-      {/* <Device name='Desktop PC' price='45600'/>
+       <Device name='Desktop PC' price='45600'/>
       <Device name='Laptop' price='50600' />
-      <Device name='Mobile' price='65600' /> */}
+      <Device name='Mobile' price='65600' />
       <Person/>
-      <Developer/>
+      <Developer/> */}
     </>
   )
 }
