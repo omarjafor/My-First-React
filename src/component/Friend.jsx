@@ -1,4 +1,5 @@
 import React from "react";
+
 export default function Friend({friend}){
     const {name, email} = friend;
     return(
