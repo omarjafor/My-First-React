@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css'
 import Home from './component/Home'
-import Counter from './component/Counter';
 
 function App() {
   // let sum=0;
