@@ -6,11 +6,11 @@ export default function Users(){
     useEffect(()=>{
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setUsers(data))
     }, [])
     return(
         <div>
-
+            <h3>Users: {users.length} </h3>
         </div>
     )
 }
