@@ -7,10 +7,12 @@ export default function Counter(){
         setCount(count+1);
     }
     const handleRemove = () =>{
-        setCount(count-1);
+        if(count>0){
+            setCount(count - 1);
+        }
     }
     return(
-        <div>
+        <div style={{border:'2px solid gray', padding:'10px'}}>
             <h3>Counter: {count}</h3>
             <button onClick={handleAdd}>Add </button> &nbsp;
             <button onClick={handleRemove}> Remove</button>
