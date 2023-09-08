@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'
-import Home from './pages/Home'
-import Counter from './pages/Counter';
+import Home from './component/Home'
+import Counter from './component/Counter';
 
 function App() {
   // let sum=0;
@@ -18,12 +18,12 @@ function App() {
       {/* <button onClick={()=> buttonClicked(5)}>Clicked</button> */}
      
       <Home/>
-      <Student />
+      {/* <Student />
        <Device name='Desktop PC' price='45600'/>
       <Device name='Laptop' price='50600' />
-      <Device name='Mobile' price='65600' />
+      <Device name='Mobile' price='65600' /> 
       <Person/>
-      <Developer/>
+      <Developer/>*/}
     </>
   )
 }
