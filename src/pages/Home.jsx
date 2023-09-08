@@ -10,14 +10,14 @@ function Home(){
         {name:'Imran Khan', age:29}
     ]
     return <div>
-        {
+        {/* {
             singers.map(singer => <Singer singer={singer} />)
         }
         <Actor name='Salman Khan'/>
         {
             actors.map(actor => <Actor name={actor}/>)
-        }
-       
+        } */}
+       <Counter/>
         <h2>Full Name: {name} </h2>
         {/* <Todo task='learn react' />
        <Todos task='Learning JavaScript' isDone={true}/>
