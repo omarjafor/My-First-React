@@ -1,4 +1,5 @@
 import React from "react";
+import Counter from "./Counter";
 const name = 'Omar Jafor Chowdhury'
 function Home(){
     const actors = ['Shakib', 'Hongsu Raj', 'Jayed Khan', 'Salman Khan']
@@ -16,6 +17,7 @@ function Home(){
         {
             actors.map(actor => <Actor name={actor}/>)
         }
+       
         <h2>Full Name: {name} </h2>
         {/* <Todo task='learn react' />
        <Todos task='Learning JavaScript' isDone={true}/>
