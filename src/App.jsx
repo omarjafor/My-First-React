@@ -17,7 +17,6 @@ function App() {
       <h1>React Core Concept</h1>
       {/* <button onClick={()=> buttonClicked(5)}>Clicked</button> */}
      
-      
       <Home/>
       <Student />
        <Device name='Desktop PC' price='45600'/>

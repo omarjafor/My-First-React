@@ -12,8 +12,8 @@ export default function Counter(){
     return(
         <div>
             <h3>Counter: {count}</h3>
-            <button onClick={handleAdd}>Add</button>
-            <button onClick={handleRemove}>Remove</button>
+            <button onClick={handleAdd}>Add </button> &nbsp;
+            <button onClick={handleRemove}> Remove</button>
         </div>
     )
 }
