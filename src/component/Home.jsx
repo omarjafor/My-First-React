@@ -1,6 +1,7 @@
 import React from "react";
 import Counter from "./Counter";
 import Team from "./Teams";
+import Users from "./Users";
 const name = 'Omar Jafor Chowdhury'
 function Home(){
     const actors = ['Shakib', 'Hongsu Raj', 'Jayed Khan', 'Salman Khan']
@@ -20,6 +21,7 @@ function Home(){
         } */}
         <Team/>
         <Counter/>
+        <Users/>
         <h2>Full Name: {name} </h2>
         {/* <Todo task='learn react' />
        <Todos task='Learning JavaScript' isDone={true}/>
