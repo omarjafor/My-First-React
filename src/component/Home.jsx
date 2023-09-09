@@ -3,6 +3,7 @@ import Counter from "./Counter";
 import Team from "./Teams";
 import Users from "./Users";
 import Friends from "./Friends";
+import Picture from "./Picture";
 const name = 'Omar Jafor Chowdhury'
 function Home(){
     const actors = ['Shakib', 'Hongsu Raj', 'Jayed Khan', 'Salman Khan']
@@ -13,6 +14,7 @@ function Home(){
         {name:'Imran Khan', age:29}
     ]
     return <div>
+        <Picture/>
         {/* {
             singers.map(singer => <Singer singer={singer} />)
         }

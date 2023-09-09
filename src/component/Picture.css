@@ -1,0 +1,16 @@
+.picture{
+    margin-top: 50px;
+    align-items: center;
+    width: 450px;
+    height: 700px;
+}
+.oldClass{
+    width: 600px;
+    height: 800px;
+    background-color: blue;
+}
+.newClass {
+    width: 600px;
+    height: 800px;
+    background-color: orange;
+}
