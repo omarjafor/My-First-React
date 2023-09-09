@@ -1,15 +1,18 @@
 .picture{
     margin-top: 50px;
     align-items: center;
+    border-radius: 15px;
     width: 450px;
     height: 700px;
 }
 .oldClass{
+    border-radius: 10px;
     width: 600px;
     height: 800px;
     background-color: blue;
 }
 .newClass {
+    border-radius: 10px;
     width: 600px;
     height: 800px;
     background-color: orange;
