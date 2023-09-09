@@ -19,14 +19,13 @@ function Home(){
         <Actor name='Salman Khan'/>
         {
             actors.map(actor => <Actor name={actor}/>)
-        } */}
+        }
         <Friends />
         <Team/>
         <Counter/>
         <Users/>
-        
         <h2>Full Name: {name} </h2>
-        {/* <Todo task='learn react' />
+        <Todo task='learn react' />
        <Todos task='Learning JavaScript' isDone={true}/>
         <Todos task='Learning React' isDone={false}/>
         <Todos2 task='Learning React' isDone={false}/>
