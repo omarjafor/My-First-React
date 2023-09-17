@@ -8,9 +8,9 @@ function App() {
   //   sum++;
   //   console.log('Button Clicked ' + sum);
   // }
-  const buttonClicked = (num) => {
-    alert('Button Clicked '+ num)
-  }
+  // const buttonClicked = (num) => {
+  //   alert('Button Clicked '+ num)
+  // }
   return (
     <>
       
