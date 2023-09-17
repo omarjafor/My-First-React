@@ -18,7 +18,7 @@ function App() {
       <Home />
       <button onClick={()=> buttonClicked(5)}>Clicked</button>
 
-      <Student name={' jabed'} age= {23} />
+      <Student name={'Jabed'} age= {23} grade= {'A+'} />
        <Device name='Desktop PC' price='45600'/>
       <Device name='Laptop' price='50600' />
       <Device name='Mobile' price='65600' />
@@ -51,7 +51,7 @@ function Student(props) {
       <h3>Hello, This is a Student</h3>
       <p>Name: {props.name}</p>
       <p>Age: {props.age} </p>
-      <p>Grade: </p>
+      <p>Grade: {props.grade} </p>
     </div>
   )
 }
