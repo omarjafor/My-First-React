@@ -3,11 +3,11 @@ import './App.css'
 import Home from './component/Home'
 
 function App() {
-  // let sum=0;
-  // function buttonClicked(){
-  //   sum++;
-  //   console.log('Button Clicked ' + sum);
-  // }
+  let sum=0;
+  function buttonClicked(){
+    sum++;
+    console.log('Button Clicked ' + sum);
+  }
   // const buttonClicked = (num) => {
   //   alert('Button Clicked '+ num)
   // }
@@ -16,14 +16,14 @@ function App() {
       
       <h1>React Core Concept</h1>
       <Home />
-      {/*<button onClick={()=> buttonClicked(5)}>Clicked</button>
+      <button onClick={()=> buttonClicked(5)}>Clicked</button>
 
-      <Student />
+      {/* <Student />
        <Device name='Desktop PC' price='45600'/>
       <Device name='Laptop' price='50600' />
       <Device name='Mobile' price='65600' />
       <Person/>
-      <Developer/>*/}
+      <Developer/> */}
     </>
   )
 }
