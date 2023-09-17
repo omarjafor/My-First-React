@@ -18,12 +18,12 @@ function App() {
       <Home />
       <button onClick={()=> buttonClicked(5)}>Clicked</button>
 
-      {/* <Student />
+      {/* <Student /> */}
        <Device name='Desktop PC' price='45600'/>
       <Device name='Laptop' price='50600' />
       <Device name='Mobile' price='65600' />
       <Person/>
-      <Developer/> */}
+      <Developer/>
     </>
   )
 }
